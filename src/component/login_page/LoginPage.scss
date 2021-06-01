@@ -1,0 +1,130 @@
+// @import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+// .LoginScreen {
+//     font-family: 'Roboto', sans-serif;
+
+//     background-color: '#b3b3b3';
+
+//     .LoginCard {
+//         position: fixed;
+//         top: 40%;
+//         left: 50%;
+//         width: 30em;
+//         // height: 28em;
+//         margin-top: -14em; /*set to a negative number 1/2 of your height*/
+//         margin-left: -15em; /*set to a negative number 1/2 of your width*/
+//         border: 1px solid white;
+//         background-color: #ffffff;
+//         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.24);
+//         transition: 0.3s;
+//         text-align: center;
+//         padding-top: 20px;
+//         padding-bottom: 20px;
+//         border-radius: 5px;
+
+//         .Title {
+//             font-size: 35;
+//             font-weight: bold;
+//         }
+
+//         .Image {
+//             height: 130px;
+//             width: 130px;
+//         }
+
+//         .SubTitle {
+//             font-size: 35;
+//             margin-top: 10px;
+//             font-weight: bold;
+//             margin-bottom: 20px;
+//         }
+
+//         .Row {
+//             input {
+//                 outline: 0;
+//                 background: #f2f2f2;
+//                 width: 80%;
+//                 border: 0;
+//                 margin: 0 0 15px;
+//                 padding: 15px;
+//                 box-sizing: border-box;
+//                 font-size: 14px;
+//             }
+//             span {
+//                 color: red;
+//                 display: flex;
+//                 padding-inline-start: 10%;
+//                 padding-bottom: 5px;
+//             }
+
+//             button {
+//                 margin-top: 10px;
+//                 font-family: 'Roboto', sans-serif;
+//                 text-transform: uppercase;
+//                 outline: 0;
+//                 background: #4caf50;
+//                 width: 80%;
+//                 margin-left: 10%;
+//                 border: 0;
+//                 padding: 15px;
+//                 color: #ffffff;
+//                 font-size: 14px;
+//                 -webkit-transition: all 0.3 ease;
+//                 transition: all 0.3 ease;
+//                 cursor: pointer;
+//                 justify-content: center;
+
+//                 .Loading {
+//                     margin-right: 5px;
+//                 }
+//             }
+
+//             button:hover,
+//             .form button:active,
+//             .form button:focus {
+//                 background: #43a047;
+//             }
+//         }
+//     }
+// }
+
+.wrap-login-component {
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+
+    .form-wrap {
+      background-color: white;
+      padding: 40px 24px;
+      width: 416px;
+
+      .ant-col.ant-form-item-control {
+        height: 32px;
+      }
+
+      .btn-create {
+        width: 100%;
+      }
+
+      .label-100 {
+        label {
+          width: 100% !important;
+        }
+      }
+
+      .ant-tabs-nav {
+        width: calc(100% - 10px);
+
+        .ant-tabs-tab {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .wrap-login-component .form-wrap .ant-tabs-nav .ant-tabs-tab {
+    /* width: 50%; */
+}

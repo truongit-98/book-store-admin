@@ -1,0 +1,35 @@
+
+.OrderTransaction {
+    padding: 20px 30px 30px 30px;
+}
+
+.container {
+    width : 1200px;
+    margin: 10px -20px 10px 10px;
+}
+
+.Transaction {
+    margin-left: 30px;
+}
+
+.Transaction-Congcu {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 50px 30px;
+}
+
+.Transaction-LoaiLenh {
+    margin-right: 8px;
+}
+
+.DateStart-NBD {
+    margin-right: 10px;
+}
+
+.DateEnd-NKT {
+    margin-right: 10px;
+}
+
+.ant-layout {
+    width: 1200px;
+}

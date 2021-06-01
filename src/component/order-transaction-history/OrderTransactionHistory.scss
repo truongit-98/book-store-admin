@@ -1,0 +1,45 @@
+.container {
+    width : 1200px;
+    margin: 10px -20px 10px 10px;
+}
+
+.Transaction {
+    margin-left: 30px;
+}
+
+.Transaction-Congcu {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 50px 30px;
+}
+
+.Transaction-Bag {
+    margin-right: 8px;
+}
+
+.Transaction__TradeStye {
+    margin-right: 100px;
+}
+
+.Transaction__TradeStye-Select {
+    margin-right: 8px;
+}
+
+.DateStart-NBD {
+    margin-right: 8px;
+}
+
+.DateEnd{
+    margin-right: 30px;
+}
+
+.DateEnd-NKT {
+    margin-right: 8px;
+}
+
+.ant-layout {
+    width: 1200px;
+    & > div {
+        overflow: auto;
+    }
+}
