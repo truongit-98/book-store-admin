@@ -1,0 +1,8 @@
+{
+	"extends": ["airbnb", "airbnb/hooks"],
+	"globals": {
+		"document": true,
+		"window": true,
+		"localStorage": true
+	}
+}
