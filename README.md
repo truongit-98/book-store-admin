@@ -1,3 +1,0 @@
-# CryptoCurrencyAdminFE
-
-Crypto currency backend
